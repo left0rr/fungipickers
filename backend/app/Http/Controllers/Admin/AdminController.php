@@ -46,7 +46,7 @@ class AdminController extends Controller
      */
     public function login(){
         if(auth()->guard('admin')->check()){
-            return redirect()->route('admin.index');
+            return redirect()->route('admin.dashboard');
         }
         return view('admin.login');
     }
@@ -76,5 +76,7 @@ class AdminController extends Controller
      */
     public function logout(){
         auth()->guard('admin')->logout();
+        return redirect()->route('admin.login');
+
     }
 }

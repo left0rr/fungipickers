@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90ca90e7-8f61-443a-992b-0382edddb1ba" name="Changes" comment="" />
+    <list default="true" id="90ca90e7-8f61-443a-992b-0382edddb1ba" name="Changes" comment="ayo">
+      <change afterPath="$PROJECT_DIR$/backend/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/layouts/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/left0rr/fungipickers.git",
-    "accountId": "f0128938-2355-4956-a142-a94ce039b53d"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;left0rr&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/left0rr/fungipickers.git&quot;,
+    &quot;accountId&quot;: &quot;f0128938-2355-4956-a142-a94ce039b53d&quot;
+  }
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/backend/vendor/fakerphp/faker" />
@@ -153,6 +169,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -164,6 +182,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yzham\Herd\fungipickers\backend\public\css" />
+      <recent name="C:\Users\yzham\Herd\fungipickers\backend\public" />
       <recent name="C:\Users\yzham\Herd\fungipickers\backend\resources\views\admin" />
     </key>
   </component>
@@ -193,11 +213,25 @@
       <workItem from="1756061182018" duration="1776000" />
       <workItem from="1756088126670" duration="2206000" />
       <workItem from="1756181354518" duration="3073000" />
-      <workItem from="1756225202295" duration="2787000" />
+      <workItem from="1756225202295" duration="6673000" />
+      <workItem from="1756348652440" duration="8854000" />
     </task>
+    <task id="LOCAL-00001" summary="ayo">
+      <option name="closed" value="true" />
+      <created>1756239501222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756239501222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ayo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ayo" />
   </component>
 </project>
