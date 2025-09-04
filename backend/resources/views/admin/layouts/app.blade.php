@@ -82,7 +82,7 @@
     }
 </script>
 <script>
-    //preview product's image before upload
+    //preview mushroom's image before upload
     function handleImageInputChange(input,image) {
         document.getElementById(input).addEventListener('change',function(){
             readUrl(this,image)

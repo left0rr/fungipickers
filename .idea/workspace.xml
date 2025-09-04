@@ -4,15 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90ca90e7-8f61-443a-992b-0382edddb1ba" name="Changes" comment="ayo">
-      <change afterPath="$PROJECT_DIR$/backend/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/layouts/sidebar.blade.php" afterDir="false" />
+    <list default="true" id="90ca90e7-8f61-443a-992b-0382edddb1ba" name="Changes" comment="frontend">
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/mushrooms/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/mushrooms/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/mushrooms/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/negatives/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/negatives/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/negatives/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/plans/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/plans/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/plans/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/positives/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/positives/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/resources/views/admin/positives/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fungipickers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fungipickers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/database/migrations/2025_08_20_114609_create_mushrooms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database/migrations/2025_08_20_114609_create_mushrooms_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/admin/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/admin/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/resources/views/admin/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/resources/views/admin/layouts/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +53,10 @@
     &quot;url&quot;: &quot;https://github.com/left0rr/fungipickers.git&quot;,
     &quot;accountId&quot;: &quot;f0128938-2355-4956-a142-a94ce039b53d&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
     <include_path>
@@ -154,6 +173,10 @@
       <path value="$PROJECT_DIR$/backend/vendor/sebastian/object-reflector" />
       <path value="$PROJECT_DIR$/backend/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/backend/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/backend/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/backend/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/backend/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/backend/vendor/laravel/sanctum" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -165,22 +188,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yzham/Herd/fungipickers/backend/resources/views/admin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\yzham\\AppData\\Local\\Programs\\PhpStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yzham\Herd\fungipickers\backend\resources\views\admin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yzham\Herd\fungipickers\backend\public\css" />
       <recent name="C:\Users\yzham\Herd\fungipickers\backend\public" />
@@ -214,7 +242,13 @@
       <workItem from="1756088126670" duration="2206000" />
       <workItem from="1756181354518" duration="3073000" />
       <workItem from="1756225202295" duration="6673000" />
-      <workItem from="1756348652440" duration="8854000" />
+      <workItem from="1756348652440" duration="9141000" />
+      <workItem from="1756415951277" duration="639000" />
+      <workItem from="1756695188876" duration="8975000" />
+      <workItem from="1756715434945" duration="7304000" />
+      <workItem from="1756785620718" duration="8282000" />
+      <workItem from="1756885537889" duration="12432000" />
+      <workItem from="1756975340613" duration="2118000" />
     </task>
     <task id="LOCAL-00001" summary="ayo">
       <option name="closed" value="true" />
@@ -224,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756239501222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done with dashboard">
+      <option name="closed" value="true" />
+      <created>1756358230929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756358230929</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +274,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ayo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ayo" />
+    <MESSAGE value="done with dashboard" />
+    <MESSAGE value="frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend" />
   </component>
 </project>

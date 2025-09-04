@@ -6,33 +6,33 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{route('admin.mushrooms.index')}}" class="nav-link text-white">
                 <img src="{{ asset('mushroom-icon.png') }}"
                      alt="Mushroom Icon"
                      width="22"
                      height="22"
                      style="filter: brightness(0) invert(1);">
-                Products
+                Mushrooms
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{route('admin.positives.index')}}" class="nav-link text-white">
                 <img src="{{ asset('nutrients.png') }}"
                      alt="Nutrients Icon"
                      width="22"
                      height="22"
                      style="filter: brightness(0) invert(1);">
-                Positives
+                Nutrients
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{route('admin.negatives.index')}}" class="nav-link text-white">
                 <img src="{{ asset('recipe.png') }}"
                      alt="Recipes icon "
                      width="22"
                      height="22"
                      style="filter: brightness(0) invert(1);">
-                Negatives
+                Recipes
             </a>
         </li>
         <li>
@@ -46,7 +46,7 @@
             </a>
         </li>
         <li>
-            <a href="#" class="nav-link text-white">
+            <a href="{{route('admin.plans.index')}}" class="nav-link text-white">
                 <i class="fa-solid fa-chart-gantt"></i> Plans
             </a>
         </li>
